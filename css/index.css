@@ -12,12 +12,12 @@
         width: 150px;
         height: 150px;
     }
-    .centro a{
+    .enl{
         letter-spacing: 1px;
         text-decoration: none;
         color: black;
     }
-        .centro a:hover{
+        .enl:hover{
             color:#ff0084;
         }
 
