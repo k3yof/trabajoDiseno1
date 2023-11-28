@@ -5,3 +5,18 @@
         width: 150px;
         height: 150px;
     }
+    .centro a{
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: black;
+    }
+    .centro a:hover{
+        color:purple;
+    }
+
+.carouselImg{
+
+}
+    .imgCar{
+        height: 500px;
+    }
