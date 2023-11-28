@@ -1,29 +1,17 @@
-.contacto a
-{
-    text-decoration: none;
-    color: #ff0084;
-}
-.contacto h2
+.rosa
 {
     color: #ff0084;
+
 }
 
-    .contacto button
-    {
-        background-color: #ff0084;
-        color: white
-    }
-
-.frecuentes h4
+.rosi
 {
- color: #1FBE01;
+    color: #ffffff;
+    background: #ff0084;
+    border: #ffffff;
 }
 
-.frecuentes a
+.amarillo 
 {
-    color:#717171;
+    background: yellow;
 }
-    .frecuentes a:hover
-    {
-        color:#ff0084;
-    }
