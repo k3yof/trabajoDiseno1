@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/indexCajas.css">
     
     <title>Principal</title>
 </head>
@@ -32,12 +33,12 @@
         <div class="container mt-5">
             <div class="row">
               <div class="col-md-6 mx-auto">
-                <h2 class="mb-4">Formulario de Contacto</h2>
+                <h2 class="mb-4">Contacta con nosotros</h2>
         
                 <form action="#" method="post">
         
                   <div class="form-group">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Nombre: <a href="#">✱</a></label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
                   </div>
 
@@ -52,11 +53,22 @@
                   </div>
 
                   <div class="form-group">
+                    <label for="pedido">Número Pedido:</label>
+                    <input type="text" class="form-control" id="pedido" name="pedido">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="producto">Número Producto:</label>
+                    <input type="text" class="form-control" id="producto" name="producto">
+                  </div>
+
+                  <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
                     <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
                   </div>
 
-                  <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+
+                  <button type="submit" class="btn btn-primary mt-3">Enviar Mensaje</button>
         
                 </form>
               </div>
