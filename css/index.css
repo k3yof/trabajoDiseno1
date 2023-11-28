@@ -1,3 +1,10 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+.colorTexto{
+    color:#ff0084;
+}
 .menu{
     
 }
@@ -11,38 +18,35 @@
         color: black;
     }
     .centro a:hover{
-        color:purple;
+        color:#ff0084;
     }
 
 .carouselImg{
 
 }
-.imgCar{
-        height: 500px;    
-}
-*
-{
-    font-family: 'Raleway', sans-serif;
-}
+    .imgCar{
+            height: 500px;    
+    }
+
+.titulo1{
+    font-size:34px
+}    
+
 .pie{
-    color:purple;
-}
-.pie a
-{
-    text-decoration: none;
-   color: rgb(255, 255, 255);
-
-}
-.pie a:hover
-{
-    color: #f4eeb1;
-}
-.pie img
-{
-    width: 300px;
-}
-
-.pie
-{
     background-color: black;
+    color:#ff0084;
 }
+    .pie a
+    {
+        text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    }
+    .pie a:hover
+    {
+        color: #ff0084;
+    }
+    .pie img
+    {
+        width: 300px;
+    }
