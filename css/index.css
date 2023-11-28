@@ -6,7 +6,7 @@
     color:#ff0084;
 }
 .menu{
-    
+    background-color: #F5F5F5;
 }
     .imgMenu{
         width: 150px;
@@ -17,9 +17,9 @@
         text-decoration: none;
         color: black;
     }
-    .centro a:hover{
-        color:#ff0084;
-    }
+        .centro a:hover{
+            color:#ff0084;
+        }
 
 .carouselImg{
 
