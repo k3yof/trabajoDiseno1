@@ -31,48 +31,78 @@
     
     <div class="contacto">
         <div class="container mt-5">
+            <div class="row text-center mb-4">
+                <h2>Solución de problemas</h2>
+                <p>En el caso de algún problema relacionado con un porducto o pedido rellene este formulario sin dejar ningun espacio <br>
+                en  blanco, en caso contrario si solo desea ponerse en contacto con nosotros por otros motivos rellene el formulario y <br>
+                se le enviará la respuesta por correo , en caso de urgencia inmediata puede llamar al numero <a href="#">666 999 777</a> <br>
+                en el tramo horario de <a href="#">8:00</a> a <a href="#">14:45</a> "Si llaman a otra hora podría no ser atendido".</p>
+            </div>
             <div class="row">
-              <div class="col-md-6 mx-auto">
-                <h2 class="mb-4">Contacta con nosotros</h2>
+               <div class="col-md-6 mx-auto">
+                 <h2 class="mb-4 text-center">Contacta con nosotros</h2>
         
-                <form action="#" method="post">
+                 <form action="#" method="post">
+                    <div class="form-group">
+
+                        <label for="nombre">Nombre: <a href="#">✱</a></label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico: <a href="#">✱</a></label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
         
-                  <div class="form-group">
-                    <label for="nombre">Nombre: <a href="#">✱</a></label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
-                  </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto: <a href="#">✱</a></label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" required>
+                    </div>
 
-                  <div class="form-group">
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                  </div>
-        
-                  <div class="form-group">
-                    <label for="asunto">Asunto:</label>
-                    <input type="text" class="form-control" id="asunto" name="asunto" required>
-                  </div>
+                    <div class="form-group">
+                        <label for="pedido">Número Pedido:</label>
+                        <input type="text" class="form-control" id="pedido" name="pedido">
+                    </div>
 
-                  <div class="form-group">
-                    <label for="pedido">Número Pedido:</label>
-                    <input type="text" class="form-control" id="pedido" name="pedido">
-                  </div>
+                    <div class="form-group">
+                        <label for="producto">Número Producto:</label>
+                        <input type="text" class="form-control" id="producto" name="producto">
+                    </div>
 
-                  <div class="form-group">
-                    <label for="producto">Número Producto:</label>
-                    <input type="text" class="form-control" id="producto" name="producto">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                  </div>
-
-
-                  <button type="submit" class="btn btn-primary mt-3">Enviar Mensaje</button>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje: <a href="#">✱</a></label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    
+                <button type="submit" class="btn mt-3">Enviar Mensaje</button>
         
                 </form>
               </div>
             </div>
+
+        <div class="frecuentes row mt-5 border-top">
+            <div class="row text-center mt-5">
+                <h2>Preguntas frecuentes</h2>
+                <div class="col text-center mt-3 mb-4">
+                    <h4>Envío y entrega</h4>
+                    <a href="#">¿Cuanto cuestan los envíos?</a><br>
+                    <a href="#">¿Cuanto tardan en llegar mis pedidos?</a><br>
+                    <a href="#">¿Qué pasa si no estoy en casa?</a>
+                </div>
+                <div class="col text-center mt-3 mb-4">
+                    <h4>Devoluciones</h4>
+                    <a href="#">¿Cuanto tiempo tengo para realizar una devolución?</a><br>
+                    <a href="#">¿Qué pasa si le quito la etiqueta a mi producto?</a><br>
+                    <a href="#">¿Porqué se ha cancelado mi devolución?</a><br>
+                </div>
+                <div class="col text-center mt-3 mb-4">
+                    <h4>Información</h4>
+                    <a href="#">¿Donde se encuentran nuestras tiendas?</a><br>
+                    <a href="#">¿Cuál es la politica de nuestra empresa?</a><br>
+                    <a href="#">¿Cómo es la calidad de nuestros productos?</a><br>
+                </div>
+            </div>
+        </div>
           </div>
     </div>
     

@@ -1,5 +1,29 @@
 .contacto a
 {
     text-decoration: none;
-    color: aquamarine;
+    color: #ff0084;
 }
+.contacto h2
+{
+    color: #ff0084;
+}
+
+    .contacto button
+    {
+        background-color: #ff0084;
+        color: white
+    }
+
+.frecuentes h4
+{
+ color: #1FBE01;
+}
+
+.frecuentes a
+{
+    color:#717171;
+}
+    .frecuentes a:hover
+    {
+        color:#ff0084;
+    }
