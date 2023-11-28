@@ -17,6 +17,29 @@
 .carouselImg{
 
 }
-    .imgCar{
-        height: 500px;
-    }
+.imgCar{
+        height: 500px;    
+}
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+.pie a
+{
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+
+}
+.pie a:hover
+{
+    color: #f4eeb1;
+}
+.pie img
+{
+    width: 300px;
+}
+
+.pie
+{
+    background-color: black;
+}
