@@ -34,7 +34,8 @@
 
     .botonMio{
         background-color: #141414;
-        color:white
+        color:white;
+        text-decoration: none;
     }
 .pie{
     background-color: black;
@@ -54,3 +55,18 @@
     {
         width: 300px;
     }
+
+    .verMas aside
+    {
+        background-color: black;
+        color: white;
+    }
+
+.carta
+{
+    width: 180px;
+}
+.centro 
+{
+    justify-content: center
+};    
