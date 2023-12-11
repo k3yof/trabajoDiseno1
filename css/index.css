@@ -83,16 +83,6 @@
     .botonMio {
         display: flex;
         flex-direction:column;
-        justify-content:flex-end ;
-        align-items: center;
-        /* width: 40px;
-        height: 40px; */
-    }
-}
-@media (max-width: 560px) {
-    .botonMio {
-        display: flex;
-    
         /* width: 40px;
         height: 40px; */
     }
