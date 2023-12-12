@@ -47,7 +47,7 @@
     background-color: black;
     color:#ff0084;
 }
-    .pie a
+    .pie a 
     {
         text-decoration: none;
     color: rgb(255, 255, 255);
@@ -89,3 +89,27 @@
     
 }
 
+.ofertas
+{
+    color: white;
+}
+
+.ofertas a
+{
+    text-decoration:none;
+    color: rgb(226, 244, 29);
+}
+
+.boton-sin-bordes 
+{
+    font-size: 16px;
+    background-color: #212529;
+    color: #e2f916;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.destacadosM strong
+{
+    color: #ff0084;
+}
