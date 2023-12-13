@@ -113,3 +113,6 @@
 {
     color: #ff0084;
 }
+.card:hover{
+    transform: scale(1.12); 
+}
