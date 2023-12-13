@@ -34,6 +34,9 @@
         color:white;
         text-decoration: none;
     }
+    .botonMio:hover{
+        color:#ff0084;
+    }
 .bodyVerMas{
         background-color: black;
 
